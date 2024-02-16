@@ -1,5 +1,8 @@
 import React from 'react';
 import Homes from './Homes';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBed } from '@fortawesome/free-solid-svg-icons';
+import { faBath } from '@fortawesome/free-solid-svg-icons';
 
 function Listings() {
   return (
@@ -9,19 +12,30 @@ function Listings() {
         {Homes.map((home) => (
           <div key={home.id} className="home-items">
             <img src={home.image} alt="" />
+            <h2 className="listing-card-location">{home.location}</h2>
             <div className="home-content">
               <div className="home-content-description">
-                <div className="heading">
-                  <h2>{home.location}</h2>
-                </div>
+                <div className="heading"></div>
+                <h1>{home.title}</h1>
                 <div className="home-price">
-                  <ph3>{home.style}</ph3>
+                  <h3>{home.style}</h3>
                   <h2>{home.price}</h2>
                 </div>
-                <h1>{home.title}</h1>
                 <div className="home-accommodations">
-                  <p>{home.bed} bedrooms</p>
-                  <p>{home.bath} bathrooms</p>
+                  <p>
+                    {home.bed}
+                    <span>
+                      <FontAwesomeIcon icon={faBed} />
+                    </span>
+                    Bed
+                  </p>
+                  <p>
+                    {home.bath}
+                    <span>
+                      <FontAwesomeIcon icon={faBath} />
+                    </span>
+                    Bath
+                  </p>
                   <p>{home.sqft} SqFt</p>
                 </div>
                 <button className="small-btn">Explore this property</button>

@@ -248,6 +248,14 @@ nav ul li a:hover {
   z-index: 1000;
 }
 
+.listing-card-location {
+  width: 100%;
+  background: var(--accent-color);
+  color: var(--gray-100);
+  text-align: center;
+  padding: 4px;
+}
+
 .home-content {
   padding: 2em;
 }
@@ -260,6 +268,10 @@ nav ul li a:hover {
   gap: 8px;
 }
 
+.home-content-description button {
+  margin-top: 16px;
+}
+
 .home-price {
   display: flex;
   justify-content: space-between;
@@ -270,7 +282,17 @@ nav ul li a:hover {
 .home-accommodations {
   display: flex;
   align-items: center;
-  gap: 1em;
+  justify-content: center;
+  gap: 2em;
+}
+
+.home-accommodations p {
+  font-weight: 300;
+}
+
+.home-accommodations span {
+  margin: 0 4px;
+  color: var(--gray-700);
 }
 
 /*About Section*/
@@ -333,7 +355,9 @@ nav ul li a:hover {
   align-items: center;
   flex-wrap: wrap;
   gap: 1em;
-  margin: 3em 6em;
+  padding: 6em;
+  margin-top: 3em;
+  background: var(--gray-300);
 }
 
 .rating-card {
@@ -354,8 +378,63 @@ nav ul li a:hover {
   font-size: 120px;
   padding: 15px;
 }
+
+/* testimonial section */
+.testimonial-section {
+  padding: 2em 0;
+}
+
+.testimonial-section > h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.testimonal-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.testimonial-items {
+  padding: 2em;
+  border-radius: 24px;
+  width: 400px;
+  background: var(--gray-700);
+  color: var(--gray-100);
+  box-shadow: var(--boxshadow);
+}
+
+.testimonial-items p::before {
+  content: '\0022';
+}
+
+.testimonial-items p::after {
+  content: '\0022';
+}
+
+.testimonial-items h2 {
+  margin-top: 1em;
+}
+
+.testimonial-items h2:before {
+  content: '\2014';
+}
+
+.testimonial-items span {
+  color: var(--accent-color);
+  font-size: 1.5em;
+  display: flex;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
 footer {
   background: var(--primary-color);
+}
+
+footer a {
+  color: var(--gray-900);
 }
 
 footer section {
@@ -437,6 +516,10 @@ footer ul li {
   .two-col-grid {
     display: flex;
     flex-direction: column;
+  }
+
+  .dream-container {
+    display: flex;
   }
 
   footer section {

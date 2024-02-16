@@ -1,6 +1,3 @@
-// https://i.ibb.co/JQYR0NQ/home-1.jpg
-// https://i.ibb.co/FWt85Kv/home-2.jpg
-// https://i.ibb.co/4KBCnYR/home-3.jpg
 const Homes = [
   {
     id: 1,
