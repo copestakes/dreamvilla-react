@@ -603,6 +603,10 @@ footer ul li {
     flex-direction: column;
   }
 
+  .rating-section {
+    padding: 2em 0;
+  }
+
   .dream-container {
     display: flex;
   }
