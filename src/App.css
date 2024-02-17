@@ -616,6 +616,10 @@ footer ul li {
     padding: 1em 8%;
   }
 
+  .testimonial-items {
+    margin: 1em 8%;
+  }
+
   .form-img {
     display: none;
   }
