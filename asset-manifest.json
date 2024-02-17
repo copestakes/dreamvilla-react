@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dreamville-react/static/css/main.6b3c0c0e.css",
+    "main.js": "/dreamville-react/static/js/main.828fd7a9.js",
+    "static/js/592.2fb35c86.chunk.js": "/dreamville-react/static/js/592.2fb35c86.chunk.js",
+    "static/media/apartment.jpg": "/dreamville-react/static/media/apartment.e45e03cc55e2c7256c21.jpg",
+    "static/media/hero-photo.jpg": "/dreamville-react/static/media/hero-photo.63fb90e7b2bec03def4b.jpg",
+    "static/media/open-door.jpg": "/dreamville-react/static/media/open-door.09d785903c02f0b200f7.jpg",
+    "static/media/couple.jpg": "/dreamville-react/static/media/couple.4d550cfd3178cfa27d17.jpg",
+    "static/media/living-room.jpg": "/dreamville-react/static/media/living-room.3a81f9b50134a2da0902.jpg",
+    "static/media/couch-image.jpg": "/dreamville-react/static/media/couch-image.883653e48129d4cd3111.jpg",
+    "static/media/dreamvillas-logo.svg": "/dreamville-react/static/media/dreamvillas-logo.3c0758d03a2bb697d88b2f6fa9ba0364.svg",
+    "index.html": "/dreamville-react/index.html",
+    "main.6b3c0c0e.css.map": "/dreamville-react/static/css/main.6b3c0c0e.css.map",
+    "main.828fd7a9.js.map": "/dreamville-react/static/js/main.828fd7a9.js.map",
+    "592.2fb35c86.chunk.js.map": "/dreamville-react/static/js/592.2fb35c86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b3c0c0e.css",
+    "static/js/main.828fd7a9.js"
+  ]
+}
