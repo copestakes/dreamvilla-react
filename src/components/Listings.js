@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Homes from './Homes';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBed } from '@fortawesome/free-solid-svg-icons';
 import { faBath } from '@fortawesome/free-solid-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 function Listings() {
   return (
@@ -11,6 +12,7 @@ function Listings() {
       <div className="listing-cards">
         {Homes.map((home) => (
           <div key={home.id} className="home-items">
+            <FontAwesomeIcon icon={faHeart} className={'home-heart'} />
             <img src={home.image} alt="" />
             <h2 className="listing-card-location">{home.location}</h2>
             <div className="home-content">

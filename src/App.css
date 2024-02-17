@@ -226,6 +226,19 @@ nav ul li a:hover {
   position: relative;
 }
 
+.home-heart {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  font-size: 1.3em;
+  color: var(--gray-700);
+  cursor: pointer;
+}
+
+.home-heart-click {
+  color: var(--fav-color);
+}
+
 .home-items img {
   display: block;
   width: 100%;
@@ -429,6 +442,70 @@ nav ul li a:hover {
   margin-bottom: 8px;
 }
 
+/* form section */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1em;
+  margin: 2em 4em;
+}
+
+.form-content {
+  flex: 1;
+}
+
+.form-img {
+  flex: 2;
+  background: url(./images/open-door.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: var(--boxshadow);
+  border: 1px solid var(--gray-300);
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  padding: 2em;
+  box-shadow: var(--boxshadow);
+  border: 1px solid var(--gray-300);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.form-content label {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: var(--gray-500);
+}
+
+.agent {
+  margin-top: 2em;
+}
+
+.form-content button {
+  margin: 1em;
+}
+
+.form-content input,
+.form-content select {
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300);
+}
+
+.agent {
+  text-align: center;
+}
+
+.agent label {
+  margin-left: 8px;
+}
+
 footer {
   background: var(--primary-color);
 }
@@ -520,6 +597,18 @@ footer ul li {
 
   .dream-container {
     display: flex;
+  }
+
+  .about-content {
+    padding: 1em 8%;
+  }
+
+  .form-img {
+    display: none;
+  }
+
+  .form-container {
+    margin: 2em 8%;
   }
 
   footer section {
