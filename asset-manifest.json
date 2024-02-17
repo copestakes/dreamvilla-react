@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dreamvilla-react/static/css/main.37a35e61.css",
+    "main.css": "/dreamvilla-react/static/css/main.2f506880.css",
     "main.js": "/dreamvilla-react/static/js/main.0b662f4c.js",
     "static/js/592.2fb35c86.chunk.js": "/dreamvilla-react/static/js/592.2fb35c86.chunk.js",
     "static/media/apartment.jpg": "/dreamvilla-react/static/media/apartment.e45e03cc55e2c7256c21.jpg",
@@ -11,12 +11,12 @@
     "static/media/couch-image.jpg": "/dreamvilla-react/static/media/couch-image.883653e48129d4cd3111.jpg",
     "static/media/dreamvillas-logo.svg": "/dreamvilla-react/static/media/dreamvillas-logo.3c0758d03a2bb697d88b2f6fa9ba0364.svg",
     "index.html": "/dreamvilla-react/index.html",
-    "main.37a35e61.css.map": "/dreamvilla-react/static/css/main.37a35e61.css.map",
+    "main.2f506880.css.map": "/dreamvilla-react/static/css/main.2f506880.css.map",
     "main.0b662f4c.js.map": "/dreamvilla-react/static/js/main.0b662f4c.js.map",
     "592.2fb35c86.chunk.js.map": "/dreamvilla-react/static/js/592.2fb35c86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37a35e61.css",
+    "static/css/main.2f506880.css",
     "static/js/main.0b662f4c.js"
   ]
 }
