@@ -1,10 +1,20 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import opendoor from '../images/open-door.jpg';
+import Swal from 'sweetalert2';
 
 function ContactForm() {
   const chevron = <FontAwesomeIcon icon={faChevronRight} />;
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    Swal.fire({
+      text: "'Thank you for contacting us! An agent will be in touch.'",
+      icon: 'success',
+      confirmButtonColor: '#d27125',
+      timer: 2000,
+    });
+  };
   return (
     <div className="form-container">
       <div className="form-img"></div>
@@ -24,7 +34,6 @@ function ContactForm() {
 
         <label htmlFor="when">When are you expecing to move?</label>
         <select name="when" id="when">
-          <option value="">Select a timeframe</option>
           <option value="immediately">Immediately</option>
           <option value="three">One to three months</option>
           <option value="six">Six months</option>
@@ -36,7 +45,7 @@ function ContactForm() {
             Do you wish to be contacted by an agent?
           </label>
         </div>
-        <button>
+        <button onClick={handleClick}>
           Submit <span>{chevron}</span>
         </button>
       </form>
