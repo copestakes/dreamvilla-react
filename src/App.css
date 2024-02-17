@@ -95,7 +95,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  text-decoration: underline solid var(--primary-color);
+  border-bottom: 1px solid var(--gray-900);
 }
 
 .menu-icon {
@@ -114,6 +114,7 @@ nav ul li a:hover {
   list-style: none;
   display: flex;
   align-items: center;
+  font-weight: 700;
 }
 
 .nav-links.visible {

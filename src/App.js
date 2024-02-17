@@ -17,7 +17,7 @@ function App() {
       <About />
       <Ratings />
       <Testimonials />
-      <ContactForm />
+      <ContactForm name="contact" />
       <Footer />
     </>
   );

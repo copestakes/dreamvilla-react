@@ -12,7 +12,7 @@ function ContactForm() {
       text: "'Thank you for contacting us! An agent will be in touch.'",
       icon: 'success',
       confirmButtonColor: '#d27125',
-      timer: 2000,
+      timer: 3000,
     });
   };
   return (

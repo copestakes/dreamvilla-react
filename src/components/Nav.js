@@ -1,11 +1,17 @@
 import { useState } from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import logo from '../images/dreamvillas-logo.svg';
 import '../index.css';
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  const scrollToContact = () => {
+    scroll.scrollToBottom(); // You can customize this to scroll to a specific element ID if needed
   };
 
   return (
@@ -42,7 +48,15 @@ function Nav() {
           <a href="/">Contact</a>
         </li>
       </ul>
-      <button className="small-btn">Contact Us</button>
+      <button
+        className="small-btn"
+        to="contact"
+        smooth={true}
+        duration={500}
+        onClick={scrollToContact}
+      >
+        Contact Us
+      </button>
     </nav>
   );
 }
