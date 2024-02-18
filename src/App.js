@@ -13,7 +13,7 @@ function App() {
     <>
       <Nav />
       <Header />
-      <Listings />
+      <Listings name="listings" />
       <About />
       <Ratings />
       <Testimonials />
