@@ -3,6 +3,7 @@ const Homes = [
     id: 1,
     location: 'King of Prussia',
     title: 'Liberty Plaza',
+    tag: 'New Listing',
     style: 'Townhome for Sale',
     price: '$450,000',
     image: 'https://i.ibb.co/JQYR0NQ/home-1.jpg',
@@ -15,6 +16,7 @@ const Homes = [
     id: 2,
     location: 'Philadelphia',
     title: 'Walnut Lofts',
+    tag: 'City Living',
     style: 'Condo for Sale',
     price: '$350,000',
     image: 'https://i.ibb.co/FWt85Kv/home-2.jpg',
@@ -26,6 +28,7 @@ const Homes = [
   {
     id: 3,
     location: 'Radnor',
+    tag: 'Price Reduced',
     title: 'Radnor Gardens',
     style: 'Home for Sale',
     price: '$750,000',

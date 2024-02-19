@@ -12,6 +12,7 @@ function Listings() {
       <div className="listing-cards">
         {Homes.map((home) => (
           <div key={home.id} className="home-items">
+            <p className="home-listing">{home.tag}</p>
             <FontAwesomeIcon icon={faHeart} className={'home-heart'} />
             <img src={home.image} alt="" />
             <h2 className="listing-card-location">{home.location}</h2>

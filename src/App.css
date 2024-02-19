@@ -236,6 +236,18 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
+.home-listing {
+  border-radius: 4px;
+  color: var(--gray-100);
+  font-weight: 700;
+  padding: 0.5em 1em;
+  background: var(--accent-color);
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1000;
+}
+
 .home-heart-click {
   color: var(--fav-color);
 }
@@ -248,7 +260,7 @@ nav ul li a:hover {
   border-radius: 24px 24px 0 0;
 }
 
-.home-items::before {
+/* .home-items::before {
   content: 'New Listing';
   display: block;
   border-radius: 4px;
@@ -260,7 +272,7 @@ nav ul li a:hover {
   top: 16px;
   left: 16px;
   z-index: 1000;
-}
+} */
 
 .listing-card-location {
   width: 100%;
